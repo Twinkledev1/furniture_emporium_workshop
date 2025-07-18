@@ -1,0 +1,51 @@
+
+body{
+    background-color: rgb(203, 218, 214);
+}
+
+article{
+    background-color: white;
+    border-radius: 1.5rem;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding:1.5rem;
+    grid-column: auto;
+    color: black;
+    text-align: justify;
+    margin: 20px;
+}
+
+.title{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#price1{
+    color: rgb(0, 85, 128);
+    font-weight:100;
+    font-size:2rem;
+}
+
+#price2{
+    color: gray;
+    font-weight:15;
+    font-size: .9rem;
+}
+
+button{
+    background-color: rgb(128, 126, 0);
+    height: 40px;
+    width: 400px;
+    border-radius: .5rem;
+    color: white;
+}
+button:hover{
+    background-color: rgb(11, 37, 11);
+}
+
+h1,h2,.title{
+    color: rgb(116, 43, 226);
+    font-weight: bold;
+}
